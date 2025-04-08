@@ -38,7 +38,7 @@ public class CarController : MonoBehaviour
         }
         else {
             Vector2 vertical = Input.GetKey(_forward) ? transform.up : Input.GetKey(_backward) ? -transform.up : Vector2.zero;
-            _currentMove = new Vector2(_rigidbody.velocity.x, _rigidbody.velocity.y);
+            _currentMove = new Vector2(_rigidbody.linearVelocity.x, _rigidbody.linearVelocity.y);
 
             if (_currentMove.magnitude > _moveMax) {
                 _currentMove = _currentMove.normalized;
@@ -47,10 +47,10 @@ public class CarController : MonoBehaviour
 
             if (vertical != Vector2.zero) {
                 _rigidbody.AddForce(vertical * _moveModifier);
-                _rigidbody.drag = _frictionModifier;
+                _rigidbody.linearDamping = _frictionModifier;
                 transform.Rotate(Vector3.forward * (Input.GetKey(_left) ? _turnModifier : Input.GetKey(_right) ? -_turnModifier : 0));
             }
-            else _rigidbody.drag = _frictionModifier * 2;
+            else _rigidbody.linearDamping = _frictionModifier * 2;
         }
     }
 
