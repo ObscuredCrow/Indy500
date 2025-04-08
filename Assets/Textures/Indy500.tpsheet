@@ -1,0 +1,45 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:48d8f55c198399c845fe8024f1b2c774:af62d439725c5293274b8d12e42e467d:3d42f9974238034bf82373f2bdca12d9$
+#
+:format=40300
+:texture=Indy500.png
+:size=1024x1024
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+car_black_1;1;892;71;131; 0.5;0.5; 0;0;0;0
+car_blue_1;1;759;71;131; 0.5;0.5; 0;0;0;0
+car_red_1;1;626;71;131; 0.5;0.5; 0;0;0;0
+road_asphalt01;1;496;128;128; 0.5;0.5; 0;0;0;0
+road_asphalt02;74;895;128;128; 0.5;0.5; 0;0;0;0
+road_asphalt03;74;765;128;128; 0.5;0.5; 0;0;0;0
+road_asphalt05;74;635;128;128; 0.5;0.5; 0;0;0;0
+road_asphalt19;1;366;128;128; 0.5;0.5; 0;0;0;0
+road_asphalt20;1;236;128;128; 0.5;0.5; 0;0;0;0
+road_asphalt37;1;106;128;128; 0.5;0.5; 0;0;0;0
+road_asphalt38;131;505;128;128; 0.5;0.5; 0;0;0;0
+road_asphalt42;204;895;128;128; 0.5;0.5; 0;0;0;0
+road_asphalt43;204;765;128;128; 0.5;0.5; 0;0;0;0
+road_asphalt55;204;635;128;128; 0.5;0.5; 0;0;0;0
+road_asphalt56;131;375;128;128; 0.5;0.5; 0;0;0;0
+road_asphalt57;131;245;128;128; 0.5;0.5; 0;0;0;0
+road_asphalt58;131;115;128;128; 0.5;0.5; 0;0;0;0
+road_asphalt59;261;505;128;128; 0.5;0.5; 0;0;0;0
+road_asphalt60;334;895;128;128; 0.5;0.5; 0;0;0;0
+road_asphalt61;334;765;128;128; 0.5;0.5; 0;0;0;0
+road_asphalt73;334;635;128;128; 0.5;0.5; 0;0;0;0
+road_asphalt74;261;375;128;128; 0.5;0.5; 0;0;0;0
+road_asphalt75;261;245;128;128; 0.5;0.5; 0;0;0;0
+road_asphalt76;261;115;128;128; 0.5;0.5; 0;0;0;0
+road_asphalt77;464;895;128;128; 0.5;0.5; 0;0;0;0
+road_asphalt78;594;895;128;128; 0.5;0.5; 0;0;0;0
+road_asphalt79;724;895;128;128; 0.5;0.5; 0;0;0;0
+road_asphalt80;854;895;128;128; 0.5;0.5; 0;0;0;0
+road_asphalt81;464;765;128;128; 0.5;0.5; 0;0;0;0
+road_asphalt82;594;765;128;128; 0.5;0.5; 0;0;0;0
